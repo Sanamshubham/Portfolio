@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.bg{
+    height: 100%;
+    width: 700%;
+    background-image: url(bbg.jpg);
+    background-repeat:repeat-x;
+    position: absolute;
+    animation: bg linear 120s infinite;
+}
+.man{
+    height: 15vw;
+    width: 10vw;
+    background-image: url(3.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+     position: absolute;
+    animation: man linear 119s infinite;
+    left: 20px;
+    bottom: 130px;
+}
+.crow{
+    height: 15vw;
+    width: 10vw;
+    background-image: url(birds.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: crow linear 115s infinite;
+    left: 740px;
+    
+}
+.cat{
+    height: 15vw;
+    width: 10vw;
+    background-image: url(b.gif);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: cat linear 118s infinite;
+    left: 100px;
+    bottom: 2%;
+}
+.name{
+   
+    position: absolute;
+    font-size: 2vw;
+    font-style: oblique;
+    color: rgb(23, 8, 156);  
+    top: 18%;
+    left: 103vw;
+}
+.house{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(house.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 100vw;
+    bottom: 18%;
+
+}
+.com{
+    height: 30vw;
+    width: 30vw;
+    background-image: url(comm.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 90vw;
+    top: 20px;
+}
+
+.srivastav{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(srivastav.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20vw;
+    bottom: -10vw;
+
+}
+.shubham{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(shubham.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20vw;
+    bottom: -6vw;
+
+}
+.resume{
+    height: 30vw;
+    width: 30vw;
+    background-image: url(resume.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 16vw;
+    bottom: -3vw;
+
+}
+.aroow1{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 60vw;
+    bottom: 5vw;
+
+}
+.school{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(school1.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 150vw;
+    bottom: 8%;
+}
+.com1{
+    height: 30vw;
+    width: 30vw;
+    background-image: url(went.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 140vw;
+    top: 20px;
+}
+.school2{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(school3.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 185vw;
+    bottom: 1%;
+}
+.th{
+   
+    position: absolute;
+    font-size: 2vw;
+    font-style: oblique;
+    color: rgb(23, 8, 156);  
+    top: 13vw;
+    left: 185vw;
+}
+.ths{
+   
+    position: absolute;
+    font-size: 2vw;
+    font-style: oblique;
+    color: rgb(23, 8, 156);  
+    top: 10vw;
+    left: 150vw;
+}
+.clg{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(clg.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 240vw;
+    bottom: 1%;
+   }
+   .clg1{
+    position: absolute;
+    font-size: 2vw;
+    font-style: oblique;
+    color: rgb(23, 8, 156);  
+    top: 10vw;
+    left: 230vw;
+   }
+   .aroow2{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(ar2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 275vw;
+    bottom: 5vw;
+
+}
+.html{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(html.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    animation: html 2s ease 0s infinite alternate both;
+    position: absolute;
+    left: 295vw;
+    bottom: 5vw;
+
+}
+.css{
+    height: 10vw;
+    width: 10vw;
+    background-image: url(css.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: css 2s ease 0s infinite alternate both;
+    left: 305vw;
+    bottom:25vw;
+}
+
+.javas{
+    height: 10vw;
+    width: 10vw;
+    background-image: url(js.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: javas 2s ease 0s infinite alternate both;
+    left: 315vw;
+    bottom:25vw;
+}
+.c{
+    height: 10vw;
+    width: 10vw;
+    background-image: url(c.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: c 2s ease 0s infinite alternate both;
+    left: 325vw;
+    bottom:25vw;
+}
+.cpp{
+    height: 10vw;
+    width: 10vw;
+    background-image: url(c++.png);
+    background-size: 50%;
+    background-repeat:no-repeat;
+    position: absolute;
+    animation: cpp 2s ease 0s infinite alternate both;
+    left: 335vw;
+    bottom:25vw;
+}
+.core{
+    height: 20vw;
+    width: 20vw;
+    background-image: url(core.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: core 2s ease 0s infinite alternate both;
+    left: 345vw;
+    bottom:25vw;
+}
+.fig{
+    height: 10vw;
+    width: 10vw;
+    background-image: url(figma.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: fig 2s ease 0s infinite alternate both;
+    left: 365vw;
+    bottom:25vw;
+}
+
+.aroow3{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(aro3.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 380vw;
+    bottom: 5vw;
+
+}.teacher{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(teacher.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: absolute;
+    left: 405vw;
+    bottom: 2vw;
+}
+.teach{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(teach.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: absolute;
+    left: 405vw;
+    top: 1vw;
+}
+.aroow4{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(awo4.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 440vw;
+    bottom: 5vw;
+
+}
+.ccc{
+    height: 10vw;
+    width: 10vw;
+    background-image: url(ccc.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: css 2s ease 0s infinite alternate both;
+    left: 460vw;
+    bottom:25vw;
+}
+.cccc{
+    position: absolute;
+    font-size: 2vw;
+    font-style: oblique;
+    color: rgb(23, 8, 156);  
+    animation: css 2s ease 0s infinite alternate both;
+    top: 460vw;
+    left: 230vw;
+   }
+.acc{
+    height: 10vw;
+    width: 10vw;
+    background-image: url(acc.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: css 2s ease 0s infinite alternate both;
+    left: 475vw;
+    bottom:25vw;
+}
+.pm{
+    height: 10vw;
+    width: 10vw;
+    background-image: url(pm.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: css 2s ease 0s infinite alternate both;
+    left: 495vw;
+    bottom:25vw;
+}
+.aroow5{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(aro5.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 510vw;
+    bottom: 5vw;
+}
+
+.game{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(game.gif);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    position: absolute;
+    left: 530vw;
+    bottom: 5vw;
+}
+
+.guiter{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(guiter.gif);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    position: absolute;
+    left: 560vw;
+    bottom: 5vw;
+}
+
+.thanks{
+    height: 30vw;
+    width: 40vw;
+    background-image: url(thanks.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: absolute;
+    left: 630vw;
+    bottom: 5vw;
+}
+
+@keyframes cpp
+    {
+        
+        0%{
+            top: 30px;
+        }
+       
+        100%{
+            top: 200px;
+        }
+    }
+    @keyframes css
+    {
+        
+        0%{
+            bottom: 490px;
+        }
+       
+        100%{
+            bottom: 230px;
+        }
+    }
+    @keyframes html
+    {
+        
+        0%{
+            top: 30px;
+        }
+       
+        100%{
+            top: 200px;
+        }
+    }
+    @keyframes c
+    {
+        
+        0%{
+            bottom: 490px;
+        }
+       
+        100%{
+            bottom: 230px;
+        }
+    }
+    @keyframes javas
+    {
+        
+        0%{
+            top: 30px;
+        }
+       
+        100%{
+            top: 200px;
+        }
+    }
+    @keyframes core
+    {
+        
+        0%{
+            top: -300px;
+        }
+       
+        100%{
+            top: 200px;
+        }
+    }   
+    @keyframes fig
+    {
+        
+        0%{
+            top: 300px;
+        }
+       
+        100%{
+            top: 200px;
+        }
+    }
+
+@keyframes bg 
+    {
+        100%{
+            transform: translateX(-580vw);
+        }
+    }
+    @keyframes man
+    {
+        100%{
+            transform: translateX(630vw);
+        }
+    }
+    @keyframes crow
+    {
+        100%{
+            transform: translateX(600vw);
+        }
+    }
+    @keyframes cat
+    {
+        100%{
+            transform: translateX(630vw);
+        }
+    }
